@@ -303,7 +303,7 @@ class _ProjectListScreenState extends State<ProjectListScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.grey[800],
+      color: Colors.white.withAlpha(10),
       child: FutureBuilder<List<Map<String, String>>>(
           future: _projects,
           builder: (context, snapshot) {
