@@ -1,16 +1,10 @@
-# code_launcher
+# VS Code Launcher
 
-A new Flutter project.
+<image src="https://www.alastaircallum.com/images/vs-code-launcher.jpeg">
 
-## Getting Started
+A Flutter Desktop app that provides a practical user interface for starting VS Code projects.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Locally executed client
+Fetches info for the currently installed Visual Studio version to ensure correct command line usage
+Reads file system information to populate recent projects with appropriate project icons
+Allows interaction with Git to create or clone a project as Git repo
